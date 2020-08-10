@@ -15,4 +15,4 @@ class MyUser(AbstractUser):
 
     REQUIRED_FIELDS = []
 
-    backend = ''
+    backend = 'custom_login.my_backend.MobileBackend'
