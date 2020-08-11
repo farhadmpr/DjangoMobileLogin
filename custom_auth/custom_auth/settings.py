@@ -126,3 +126,5 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'custom_login.my_backend.MobileBackend'
 ]
+
+KAVENEGAR_API = '*****'
